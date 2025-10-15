@@ -3,14 +3,14 @@
 // @description      在 Alist 文件列表页生成 M3U 播放列表，可在支持的播放器（如 Kodi）中使用
 // @version          0.1
 // @match            *://*/*
-// @namespace        https://github.com/GallenHu/user-scripts
-// @homepage         https://github.com/GallenHu
-// @author           Gallen
+// @namespace        https://github.com/glenhoooo/user-scripts
+// @homepage         https://github.com/glenhoooo
+// @author           Glen
 // @icon             https://alist.nn.ci/logo.svg
 // @license          MIT
 // @require          https://cdn.bootcdn.net/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js
-// @updateURL        https://fastly.jsdelivr.net/gh/gallenhu/user-scripts@release/alist-to-m3u.user.js
-// @downloadURL      https://fastly.jsdelivr.net/gh/gallenhu/user-scripts@release/alist-to-m3u.user.js
+// @updateURL        https://fastly.jsdelivr.net/gh/glenhoooo/user-scripts@release/alist-to-m3u.user.js
+// @downloadURL      https://fastly.jsdelivr.net/gh/glenhoooo/user-scripts@release/alist-to-m3u.user.js
 // ==/UserScript==
 /* eslint-disable */ /* spell-checker: disable */
 

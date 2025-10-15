@@ -7,15 +7,15 @@
 // @grant            GM_xmlhttpRequest
 // @grant            GM_setValue
 // @grant            GM_getValue
-// @namespace        https://github.com/GallenHu/user-scripts
+// @namespace        https://github.com/glenhoooo/user-scripts
 // @homepage         https://linux.do/t/topic/742276
 // @author           you
 // @icon             
 // @license          MIT
 // @connect          api2.cursor.sh
 // @connect          cursor.sh
-// @updateURL        https://fastly.jsdelivr.net/gh/gallenhu/user-scripts@release/cursor-token-refresh.user.js
-// @downloadURL      https://fastly.jsdelivr.net/gh/gallenhu/user-scripts@release/cursor-token-refresh.user.js
+// @updateURL        https://fastly.jsdelivr.net/gh/glenhoooo/user-scripts@release/cursor-token-refresh.user.js
+// @downloadURL      https://fastly.jsdelivr.net/gh/glenhoooo/user-scripts@release/cursor-token-refresh.user.js
 // ==/UserScript==
 /* eslint-disable */ /* spell-checker: disable */
 

@@ -5,14 +5,14 @@
 // @match            *://linux.do/*
 // @grant            window.onurlchange
 // @grant            unsafeWindow
-// @namespace        https://github.com/GallenHu/user-scripts
-// @homepage         https://github.com/GallenHu
-// @author           Gallen
+// @namespace        https://github.com/glenhoooo/user-scripts
+// @homepage         https://github.com/glenhoooo
+// @author           Glen
 // @icon             https://linux.do/uploads/default/optimized/3X/9/d/9dd49731091ce8656e94433a26a3ef36062b3994_2_32x32.png
 // @license          MIT
 // @run-at           document-end
-// @updateURL        https://fastly.jsdelivr.net/gh/gallenhu/user-scripts@release/linux-do-quick-links.user.js
-// @downloadURL      https://fastly.jsdelivr.net/gh/gallenhu/user-scripts@release/linux-do-quick-links.user.js
+// @updateURL        https://fastly.jsdelivr.net/gh/glenhoooo/user-scripts@release/linux-do-quick-links.user.js
+// @downloadURL      https://fastly.jsdelivr.net/gh/glenhoooo/user-scripts@release/linux-do-quick-links.user.js
 // ==/UserScript==
 /* eslint-disable */ /* spell-checker: disable */
 
@@ -35,7 +35,7 @@ function addHeaderButtons() {
     if ($wrap) {
         console.log("$wrap found");
         const $li = document.createElement("li");
-        $li.className = "search-dropdown header-dropdown-toggle";
+        $li.className = "search-dropdown custom-header-icon-link";
         const $a = document.createElement("a");
         $a.className = "btn no-text btn-icon icon btn-flat";
         $a.href = "https://linux.do/u/gallen/activity/likes-given";
@@ -49,9 +49,43 @@ function addHeaderButtons() {
         console.error("$wrap not found");
     }
 }
+function makeOpenInNewTab() {
+    console.log("makeOpenInNewTab");
+    function isTargetPage() {
+        const path = window.location.pathname;
+        return (path === "/" ||
+            path === "/search" ||
+            (path.startsWith("/u/") && path.endsWith("/activity/bookmarks")) ||
+            (path.startsWith("/u/") && path.includes("/activity/topics")));
+    }
+    function modifyLinks() {
+        if (!isTargetPage()) {
+            return;
+        }
+        const postLinks = document.querySelectorAll("a[data-topic-id]");
+        postLinks.forEach(link => {
+            var _a;
+            if (link.href && (link.href.includes("/t/") || link.href.includes("/d/"))) {
+                if (!link.hasAttribute("target") || link.getAttribute("target") !== "_blank") {
+                    link.setAttribute("target", "_blank");
+                    if (!link.hasAttribute("rel") || !((_a = link.getAttribute("rel")) === null || _a === void 0 ? void 0 : _a.includes("noopener"))) {
+                        const currentRel = link.getAttribute("rel") || "";
+                        link.setAttribute("rel", currentRel ? currentRel + " noopener" : "noopener");
+                    }
+                    link.addEventListener("click", function (e) {
+                        e.stopPropagation();
+                    }, true);
+                }
+            }
+        });
+    }
+    modifyLinks();
+}
 window.addEventListener("load", () => {
     addHeaderButtons();
+    makeOpenInNewTab();
 });
+document.addEventListener("DOMContentLoaded", makeOpenInNewTab);
 
 __webpack_exports__ = __webpack_exports__["default"];
 /******/ 	return __webpack_exports__;

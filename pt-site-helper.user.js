@@ -16,14 +16,14 @@
 // @grant            GM_setValue
 // @grant            GM_getValue
 // @grant            GM_notification
-// @namespace        https://github.com/GallenHu/user-scripts
-// @homepage         https://github.com/GallenHu
-// @author           Gallen
+// @namespace        https://github.com/glenhoooo/user-scripts
+// @homepage         https://github.com/glenhoooo
+// @author           Glen
 // @icon             https://i.loli.net/2020/02/11/sluFx1NIW9zCLS6.png
 // @license          MIT
 // @require          https://cdn.staticfile.org/jquery/1.12.2/jquery.min.js
-// @updateURL        https://fastly.jsdelivr.net/gh/gallenhu/user-scripts@release/pt-site-helper.user.js
-// @downloadURL      https://fastly.jsdelivr.net/gh/gallenhu/user-scripts@release/pt-site-helper.user.js
+// @updateURL        https://fastly.jsdelivr.net/gh/glenhoooo/user-scripts@release/pt-site-helper.user.js
+// @downloadURL      https://fastly.jsdelivr.net/gh/glenhoooo/user-scripts@release/pt-site-helper.user.js
 // ==/UserScript==
 /* eslint-disable */ /* spell-checker: disable */
 

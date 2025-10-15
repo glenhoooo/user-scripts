@@ -3,13 +3,13 @@
 // @description      为 ElementUI 文档官网组件页增加内页跳转锚点
 // @version          0.1
 // @match            https://element.eleme.cn/*
-// @namespace        https://github.com/GallenHu/user-scripts
-// @homepage         https://github.com/GallenHu
-// @author           Gallen
+// @namespace        https://github.com/glenhoooo/user-scripts
+// @homepage         https://github.com/glenhoooo
+// @author           Glen
 // @icon             https://element.eleme.cn/favicon.ico
 // @license          MIT
-// @updateURL        https://fastly.jsdelivr.net/gh/gallenhu/user-scripts@release/element-ui-anchor.user.js
-// @downloadURL      https://fastly.jsdelivr.net/gh/gallenhu/user-scripts@release/element-ui-anchor.user.js
+// @updateURL        https://fastly.jsdelivr.net/gh/glenhoooo/user-scripts@release/element-ui-anchor.user.js
+// @downloadURL      https://fastly.jsdelivr.net/gh/glenhoooo/user-scripts@release/element-ui-anchor.user.js
 // ==/UserScript==
 /* eslint-disable */ /* spell-checker: disable */
 

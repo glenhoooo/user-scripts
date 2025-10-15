@@ -6,16 +6,16 @@
 // @match            *://www.xunniupan.co/file*
 // @grant            GM_getResourceText
 // @grant            GM_addStyle
-// @namespace        https://github.com/GallenHu/user-scripts
-// @homepage         https://github.com/GallenHu
-// @author           Gallen
+// @namespace        https://github.com/glenhoooo/user-scripts
+// @homepage         https://github.com/glenhoooo
+// @author           Glen
 // @icon             https://www.baidu.com/favicon.ico
 // @license          MIT
 // @require          https://cdn.staticfile.org/jquery/1.12.2/jquery.min.js
 // @require          https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js
 // @resource         IMPORTED_CSS https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css
-// @updateURL        https://fastly.jsdelivr.net/gh/gallenhu/user-scripts@release/arai2-download-netdisk.user.js
-// @downloadURL      https://fastly.jsdelivr.net/gh/gallenhu/user-scripts@release/arai2-download-netdisk.user.js
+// @updateURL        https://fastly.jsdelivr.net/gh/glenhoooo/user-scripts@release/arai2-download-netdisk.user.js
+// @downloadURL      https://fastly.jsdelivr.net/gh/glenhoooo/user-scripts@release/arai2-download-netdisk.user.js
 // ==/UserScript==
 /* eslint-disable */ /* spell-checker: disable */
 

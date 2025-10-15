@@ -5,14 +5,14 @@
 // @match            *://e.juejin.cn/*
 // @grant            window.onurlchange
 // @grant            unsafeWindow
-// @namespace        https://github.com/GallenHu/user-scripts
-// @homepage         https://github.com/GallenHu
-// @author           Gallen
+// @namespace        https://github.com/glenhoooo/user-scripts
+// @homepage         https://github.com/glenhoooo
+// @author           Glen
 // @icon             https://lf-cdn-tos.bytescm.com/obj/static/xitu_extension/static/favicons/favicon.ico
 // @license          MIT
 // @run-at           document-end
-// @updateURL        https://fastly.jsdelivr.net/gh/gallenhu/user-scripts@release/juejin-github-switch.user.js
-// @downloadURL      https://fastly.jsdelivr.net/gh/gallenhu/user-scripts@release/juejin-github-switch.user.js
+// @updateURL        https://fastly.jsdelivr.net/gh/glenhoooo/user-scripts@release/juejin-github-switch.user.js
+// @downloadURL      https://fastly.jsdelivr.net/gh/glenhoooo/user-scripts@release/juejin-github-switch.user.js
 // ==/UserScript==
 /* eslint-disable */ /* spell-checker: disable */
 

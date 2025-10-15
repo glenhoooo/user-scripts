@@ -5,13 +5,13 @@
 // @match            https://huggingface.co/*
 // @grant            none
 // @namespace        http://tampermonkey.net/
-// @homepage         https://github.com/GallenHu
-// @author           gallenhu
+// @homepage         https://github.com/glenhoooo
+// @author           glenhoooo
 // @icon             https://www.tampermonkey.net/images/icon180.png
 // @license          MIT
 // @run-at           document-end
-// @updateURL        https://fastly.jsdelivr.net/gh/gallenhu/user-scripts@release/huggingface-mirror-links.user.js
-// @downloadURL      https://fastly.jsdelivr.net/gh/gallenhu/user-scripts@release/huggingface-mirror-links.user.js
+// @updateURL        https://fastly.jsdelivr.net/gh/glenhoooo/user-scripts@release/huggingface-mirror-links.user.js
+// @downloadURL      https://fastly.jsdelivr.net/gh/glenhoooo/user-scripts@release/huggingface-mirror-links.user.js
 // ==/UserScript==
 /* eslint-disable */ /* spell-checker: disable */
 

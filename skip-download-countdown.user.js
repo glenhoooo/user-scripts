@@ -6,13 +6,13 @@
 // @match            *://www.xunniupan.co/*
 // @grant            GM_registerMenuCommand
 // @grant            unsafeWindow
-// @namespace        https://github.com/GallenHu/user-scripts
-// @homepage         https://github.com/GallenHu
-// @author           Gallen
+// @namespace        https://github.com/glenhoooo/user-scripts
+// @homepage         https://github.com/glenhoooo
+// @author           Glen
 // @icon             https://www.baidu.com/favicon.ico
 // @license          MIT
-// @updateURL        https://fastly.jsdelivr.net/gh/gallenhu/user-scripts@release/skip-download-countdown.user.js
-// @downloadURL      https://fastly.jsdelivr.net/gh/gallenhu/user-scripts@release/skip-download-countdown.user.js
+// @updateURL        https://fastly.jsdelivr.net/gh/glenhoooo/user-scripts@release/skip-download-countdown.user.js
+// @downloadURL      https://fastly.jsdelivr.net/gh/glenhoooo/user-scripts@release/skip-download-countdown.user.js
 // ==/UserScript==
 /* eslint-disable */ /* spell-checker: disable */
 

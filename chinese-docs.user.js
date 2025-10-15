@@ -3,13 +3,13 @@
 // @description      为常见的开发者官方文档增加中文文档跳转链接
 // @version          0.1
 // @match            *://rxjs.dev/*
-// @namespace        https://github.com/GallenHu/user-scripts
-// @homepage         https://github.com/GallenHu
-// @author           Gallen
+// @namespace        https://github.com/glenhoooo/user-scripts
+// @homepage         https://github.com/glenhoooo
+// @author           Glen
 // @icon             https://rxjs.tech/assets/images/favicons/favicon.ico
 // @license          MIT
-// @updateURL        https://fastly.jsdelivr.net/gh/gallenhu/user-scripts@release/chinese-docs.user.js
-// @downloadURL      https://fastly.jsdelivr.net/gh/gallenhu/user-scripts@release/chinese-docs.user.js
+// @updateURL        https://fastly.jsdelivr.net/gh/glenhoooo/user-scripts@release/chinese-docs.user.js
+// @downloadURL      https://fastly.jsdelivr.net/gh/glenhoooo/user-scripts@release/chinese-docs.user.js
 // ==/UserScript==
 /* eslint-disable */ /* spell-checker: disable */
 
