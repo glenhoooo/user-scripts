@@ -8,7 +8,7 @@
     "build": "webpack --config webpack.config.js",
     "test": "jest"
   },
-  "author": "Gallen",
+  "author": "Glen",
   "license": "ISC",
   "devDependencies": {
     "clean-webpack-plugin": "^4.0.0",

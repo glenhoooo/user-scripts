@@ -67,11 +67,11 @@ class MetaPlugin {
               if (!meta.name) map.set("name", chunk.name);
               map.set(
                 "updateURL",
-                `https://fastly.jsdelivr.net/gh/gallenhu/user-scripts@release/${chunk.name}.user.js`
+                `https://fastly.jsdelivr.net/gh/glenhoooo/user-scripts@release/${chunk.name}.user.js`
               );
               map.set(
                 "downloadURL",
-                `https://fastly.jsdelivr.net/gh/gallenhu/user-scripts@release/${chunk.name}.user.js`
+                `https://fastly.jsdelivr.net/gh/glenhoooo/user-scripts@release/${chunk.name}.user.js`
               );
 
               map = new Map([...map.entries()].sort((a, b) => sortKeys(a[0], b[0])));

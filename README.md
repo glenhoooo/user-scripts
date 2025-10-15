@@ -18,4 +18,4 @@ yarn build
 
 open in browser:
 
-[https://fastly.jsdelivr.net/gh/gallenhu/user-scripts@release/search-engine-jump.user.js](https://fastly.jsdelivr.net/gh/gallenhu/user-scripts@release/search-engine-jump.user.js)
+[https://fastly.jsdelivr.net/gh/glenhoooo/user-scripts@release/search-engine-jump.user.js](https://fastly.jsdelivr.net/gh/glenhoooo/user-scripts@release/search-engine-jump.user.js)
